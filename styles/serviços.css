@@ -59,7 +59,7 @@ main {
     background-color: orange;
     flex-shrink: 0;
     border-radius: 15px;
-    background-image: url(/photos/services/agua/chris.jpeg);
+    background-image: url(photos/services/agua/chris.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,3 +90,4 @@ main {
     align-items: center;
 
 }
+

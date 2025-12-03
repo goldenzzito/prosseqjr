@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+hr {
+  border: none;          /* remove o estilo padrão */
+  height: 4px;           /* espessura */
+  background-color: #ff5500; /* cor */
+  border-radius: 5px;    /* deixa arredondado (opcional) */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    background-color: black;
+}
+
+main {
+  margin-left: 300px;
+  margin-right: 300px;  
+}
+
+.agua {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 40px;
+    
+}
+
+.texto-agua {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    
+}
+
+.texto-aguaa {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 30px;
+       
+}
+
+
+.caixa-agua {
+    display: flex;  
+    flex: 1;
+    width: 1280px;
+    height: 720px;
+    background-color: orange;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background-image: url(/photos/services/agua/chris.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botao-agua {
+    width: 350px;
+    height: auto;
+    margin: 40px;
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+    color: black;
+    background-color: #ff5500;
+    border: none;
+    border-radius: 15px;
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+
+.botao-agua:hover {
+    transform: scale(1.05);
+             
+}
+
+.bottao-agua {
+    align-items: center;
+
+}

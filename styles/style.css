@@ -137,7 +137,7 @@ main {
   justify-content: center;  /* centraliza verticalmente */
   align-items: center;      /* centraliza horizontalmente */
   gap: 5px; 
-  background-image: url("/photos/hero-photo.jpg");
+  background-image: url("photos/hero-photo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -593,4 +593,5 @@ input:focus, textarea:focus {
 
 .footer a:hover {
   color: white;
+
 }
